@@ -1,32 +1,41 @@
 # Klean Privacy Policy
 
-_Last updated: 9 September 2026_
+_Last updated: 24 November 2026_
 
-Klean is a macOS utility that temporarily blocks keyboard input and fills the screen
-with a flat colour while you clean your Mac.
+Klean is a small menu bar utility that temporarily locks keyboard and trackpad input
+while you clean your keyboard, and fills your displays with a flat colour while you
+clean the screen.
 
 ## Data collection
 
-Klean collects no data. It has no account system, no analytics, no crash reporting of
-its own, and it never connects to the internet.
+Klean collects no personal data. It has no account system, no analytics, no
+advertising, no tracking and no crash reporting of its own. Klean itself has no network
+access.
 
-## Keyboard input
+## Keyboard and trackpad input
 
-While the keyboard lock is active, Klean discards key presses so they do not reach
-other applications. Discarded keys are not read, stored, or transmitted. Klean does not
-run any input monitoring outside its own lock and screen-cleaning modes.
+While a lock or screen-cleaning session that you started is running, Klean's own
+full-screen window catches key presses (and, if you choose, trackpad and mouse input) so
+they do not reach other applications. Key presses are only compared with the unlock
+shortcut and then discarded; they are never stored or transmitted. Outside these
+sessions Klean does not observe your input at all.
 
-## Accessibility permission
+Klean requests no special permissions such as Accessibility, Input Monitoring or Screen
+Recording.
 
-macOS requires the Accessibility permission before an application may block keyboard
-input. Klean uses this permission only for that purpose. You can revoke it at any time
-in System Settings → Privacy & Security → Accessibility.
+## Settings stored on your device
 
-## Settings
+Klean keeps a few preferences in standard macOS user defaults on your computer:
+whether the trackpad is locked too, whether Klean has been opened before, how many
+cleaning sessions you have finished, and which version last showed the rating request.
+"Launch at login" is managed by macOS Login Items. None of this leaves your device.
 
-Two preferences (whether the trackpad is locked too, and whether Klean opens at login)
-are stored locally on your Mac using standard macOS user defaults. They never leave
-your device.
+## Tips and ratings
+
+Klean is free. Optional tips are in-app purchases processed entirely by Apple through
+the App Store; Klean does not receive your name, payment details or any other personal
+information. After a few finished sessions, Klean may show Apple's standard rating
+request, which Apple controls and limits.
 
 ## Changes
 
@@ -35,4 +44,4 @@ updated date.
 
 ## Contact
 
-Questions and support: [open an issue](https://github.com/enesorak/klean/issues).
+Questions and support: support@sharking.dev

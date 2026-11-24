@@ -1,19 +1,22 @@
 # Klean
 
-Lock your Mac's keyboard while you clean it, and fill the screen with a flat colour
-so dust and smudges stand out. A small menu bar utility for macOS 14 and later.
+Lock your keyboard while you clean it, and fill your displays with a flat colour so
+dust and smudges stand out. A small menu bar utility for macOS 14 and later.
 
-- **Lock Keyboard** — `⌃⌥⌘L`. Every key, media key and (optionally) the trackpad is
-  ignored. Hold `⌃⌥⌘L` for two seconds to unlock; any other key resets the timer.
-- **Clean Screen** — `⌃⌥⌘S`. Black, white, red, green or blue on every display.
-  Arrow keys switch colours, `Esc` exits.
+- **Lock Keyboard** (`⌃⌥⌘L`): keys and, optionally, the trackpad can't reach your apps.
+  Hold `⌃⌥⌘L` for two seconds to unlock; any other key resets the timer, so a cloth
+  can't unlock it by accident. Volume and brightness keys keep working.
+- **Clean Screen** (`⌃⌥⌘S`): black, white, red, green or blue on every display.
+  Arrow keys or `1`–`5` switch colours, `Esc` exits.
 
-Klean has no account, no analytics and no network access. See the
+No permissions, no account, no analytics, no network access. See the
 [privacy policy](PRIVACY.md).
+
+[Get Klean on the App Store](https://apps.apple.com/app/id6810372924)
 
 ## Support
 
-Found a bug or have a request? [Open an issue](https://github.com/enesorak/klean/issues).
+Questions, bugs or requests: **support@sharking.dev**
 
 ## Automation
 
